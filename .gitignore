@@ -1,2 +1,8 @@
 node_modules
 .vscode
+server.pem
+v3.ext
+priv.pem
+key.pem
+certificate.pem
+package-lock.json

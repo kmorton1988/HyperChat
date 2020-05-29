@@ -16,8 +16,8 @@ process.title = 'HyperChat';
 
 // Options for the web server including the TLS Certificate and allowing http1
 const options = {
-  cert: fs.readFileSync('/Users/evere/Servers/Certificates/ECDSA/chain.pem'),
-  key: fs.readFileSync('/Users/evere/Servers/Certificates/ECDSA/key.pem'),
+  cert: fs.readFileSync('./certificate.pem'),
+  key: fs.readFileSync('./key.pem'),
   allowHTTP1: true
 }
 
